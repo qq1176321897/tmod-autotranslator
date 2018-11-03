@@ -11,6 +11,7 @@ of the '黎执' translation group.
 ModLocalizer (test with version 0.2)
 Python3 (test with version 3.6.7rc2)
 windows (test with version 10.1803)
+pyexecjs (test with version 1.5.1)
 *********note*********
 1. This priogram should be put in the modlocalizer directory (with the file Mod.Localizer.exe)
 2. The patched file will be name by the mod name followed by "_patched"
