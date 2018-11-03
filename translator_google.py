@@ -108,7 +108,7 @@ length = len(queue)
 def translate(index, full):
     thread_list.append(index)
     if random.random() < 0.1:
-        info('threading : translating...{}% ({} of {})'.format(int(100 * index / full), index, full), cinf)
+        info('thread : translating...{}% ({} of {})'.format(int(100 * index / full), index, full), cinf)
     origin = queue[index]
     omit = 0
     if origin == '':
